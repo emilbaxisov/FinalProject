@@ -1,0 +1,37 @@
+.add{
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    input{
+        display: block;
+        width: 500px;
+        height: 40px;
+        margin-bottom: 20px;
+
+    }
+    button{
+        width: 120px;
+                        height: 34px;
+                        background-color: #7971EA;
+                        border-radius: 20px;
+                        border: none;
+                        color: white;
+    }
+
+    .tesekkur{
+        display: flex;
+        align-items: center;
+
+
+        h2{
+            margin-left: 10px;
+            color: white;
+            
+        }
+        h2:hover{
+            color: #7971EA;
+        }
+    }
+
+    
+}

@@ -1,0 +1,256 @@
+.home{
+
+    .container1{
+        width: 100%;
+        
+
+        .headerfoto{
+            width: 100%;
+            height: 100vh;
+            background-image: url("../../hero_1.jpg.webp");
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            .headerfotoleft{
+                width: 500px;
+                height: 300px;
+                color: #fff;
+                h1{
+                    font-size: 45px;
+                }
+                p{
+                    font-size: 25px;
+                }
+                button{
+                    width: 180px;
+                    height: 40px;
+                    background-color: #7971EA;
+                    border-radius: 20px;
+                    border: none;
+                    color: white;
+                }
+                button:hover{
+                    background-color: #584fe0; 
+                }
+            }
+            .headerfotorigt{
+                width: 400px;
+                height: 300px;
+                background-color: white;
+                margin-left: 50px;
+                
+                h1{
+                    margin-left: 30px;
+                }
+                input{
+                    margin-left: 30px;
+                    margin-top: 10px;
+                    width: 320px;
+                    height: 35px;
+                }
+
+                button{
+                    width: 120px;
+                    height: 34px;
+                    background-color: #7971EA;
+                    border-radius: 20px;
+                    border: none;
+                    color: white;
+                    margin-left: 30px;
+                    margin-top: 15px;
+                }
+                button:hover{
+                    background-color: #584fe0; 
+                }
+                
+            }
+            
+        }
+
+        .cards{
+            margin-top: 80px;
+            width: 100%;
+
+
+            .card1{
+                width: 600px;
+                margin: 0 auto;
+                h1{
+                    margin-left: 150px;
+                    font-size: 45px;
+                }
+            }
+            .cardfoto{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 70px;
+              
+                .cardfoto1{
+                    img{
+                        width: 650px;
+                        height: 500px;
+                    }
+                }
+
+                .cardfoto11{
+                    img{
+                        width: 650px;
+                        height: 500px;
+                    }
+                    margin-left: 60px;
+                }
+                .cardwrite{
+                    width: 330px;
+                    margin-left: 50px;
+
+                    p{
+                        margin-top: 15px;
+                    }
+                    .iconp{
+                        display: flex;
+                        font-size: 20px;
+                        color:#7971EA ;
+
+                        .ptagicon{
+                            margin-right: 20px;   
+                        }
+
+                        
+                    }
+                }
+                
+            }
+        }
+
+        .cardmap{
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 90px;
+
+            .cardmaptop{
+                width: 600px;
+                margin: 0 auto;
+                h1{
+                    margin-left: 150px;
+                    font-size: 45px;
+                }
+            }
+
+            .mapasaldiqimyer{
+                width: 70%;
+                margin-left: 15%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: 50px;
+                
+
+
+                .main{
+                    width: 400px;
+                    border: 1px solid rgb(226, 226, 226);
+                    margin-top: 110px;
+
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        margin-left: 130px;
+                        margin-top: -80px;
+                    }
+
+                    .ptagmap{
+                        margin-left: 50px;
+                        margin-right: 50px;
+                    }
+                    p{
+                        margin-left: 50px;
+                    }
+                    button{
+                        width: 120px;
+                        height: 34px;
+                        background-color: #7971EA;
+                        border-radius: 20px;
+                        border: none;
+                        color: white;
+                        margin-left: 50px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .inputandbutton{
+                width: 1800px;
+                margin: 0 auto;
+                
+
+
+                input{
+                    margin-top: 50px;
+                    margin-left: 600px;
+                    width: 350px;
+                    height: 35px;
+                }
+                button{
+                    width: 120px;
+                            height: 34px;
+                            background-color: #7971EA;
+                            border-radius: 20px;
+                            border: none;
+                            color: white;
+                            margin-left: 600px;
+                            margin-top: 30px;
+                            font-size: 20px;
+                }
+            }
+
+            
+        }
+
+        .add1{
+            width: 60%;
+            margin-left: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 60px;
+            margin-top: 50px;
+
+            .add2{
+                width: 700px;
+
+                .inputs{
+                    input{
+                        width: 300px;
+                        height: 30px;
+                    }
+                }
+
+                input{
+                    margin-top: 20px;
+                    width: 613px;
+                    height: 30px;
+                }
+                textarea{
+                    width: 613px;
+                    height: 250px;
+                    margin-top: 20px;
+                }
+                button{
+                    width: 180px;
+                            height: 34px;
+                            background-color: #7971EA;
+                            border-radius: 20px;
+                            border: none;
+                            color: white;
+                            margin-top: 10px;
+                }
+            }
+        }
+    }
+}

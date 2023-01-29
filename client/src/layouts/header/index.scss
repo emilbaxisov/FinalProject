@@ -1,0 +1,34 @@
+.header{
+    width: 1400px;
+    margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .box{
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    margin-left: 20px;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            background-color: #7971EA;
+            border-radius: 20px;
+            border: none;
+            color: white;
+        }
+        button:hover{
+            background-color: #584fe0; 
+        }
+    
+}
